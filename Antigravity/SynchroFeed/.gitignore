@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Production build (GitHub Actions builds this during deploy)
+dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Firebase debug logs
+firebase-debug.log
+firebase-debug.*.log
+.firebase/
+
+# Editor directories
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vite
+*.local
